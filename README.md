@@ -31,3 +31,7 @@ new MyComponent(document.querySelector('#hello'));
 ```
 
 For state declaration reference see [st8 API](http://npmjs.org/package/st8#API).
+
+
+
+[![NPM](https://nodei.co/npm/define-state.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/define-state/)
