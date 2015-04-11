@@ -18,6 +18,9 @@
     "defineProperty",
     "object"
   ],
+  "dependencies": {
+    "st8": "latest"
+  },
   "author": "Deema Ywanov",
   "license": "MIT",
   "bugs": {
