@@ -1,0 +1,27 @@
+{
+  "name": "define-state",
+  "version": "1.0.0",
+  "description": "Define stateful property on an object",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfcreative/define-state"
+  },
+  "keywords": [
+    "state",
+    "st8",
+    "stateful",
+    "defineProperty",
+    "object"
+  ],
+  "author": "Deema Ywanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfcreative/define-state/issues"
+  },
+  "homepage": "https://github.com/dfcreative/define-state"
+}
