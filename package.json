@@ -21,6 +21,9 @@
   "dependencies": {
     "st8": "latest"
   },
+  "devDependencies": {
+    "mocha": "latest"
+  },
   "author": "Deema Ywanov",
   "license": "MIT",
   "bugs": {
