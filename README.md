@@ -30,8 +30,25 @@ MyComponent.prototype.state = {
 new MyComponent(document.querySelector('#hello'));
 ```
 
-For state declaration reference see [st8 API](http://npmjs.org/package/st8#API).
 
+## API
+
+### defineState(target, name, state, isFn?)
+
+Define stateful property `name` on a `target` according to the `state` declaration (see [st8 API](http://npmjs.org/package/st8#API)). Pass optional `isFn` argument to define functional accessor instead of getter/setter, might be useful for IE8/ES3 environments or to define functional-style components, like [dialog](https://github.com/component/dialog).
+
+```js
+defineState(target, 'visible', {
+	true: function () {
+		this.removeAttribute('hidden');
+	},
+	false: function () {
+		this.setAttribute('hidden', true);
+	}
+}, true);
+
+target.visible(false);
+```
 
 
 [![NPM](https://nodei.co/npm/define-state.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/define-state/)
