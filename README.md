@@ -1,4 +1,4 @@
-# define state [![Build Status](https://travis-ci.org/dfcreative/define-state.svg?branch=master)](https://travis-ci.org/dfcreative/define-state) [![Code Climate](https://codeclimate.com/github/dfcreative/define-state/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/define-state) ![Deps](https://david-dm.org/dfcreative/define-state.svg)
+# define state
 
 **DEPRECATION NOTICE**
 
