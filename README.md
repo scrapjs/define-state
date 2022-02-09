@@ -1,5 +1,40 @@
 # define state [![Build Status](https://travis-ci.org/dfcreative/define-state.svg?branch=master)](https://travis-ci.org/dfcreative/define-state) [![Code Climate](https://codeclimate.com/github/dfcreative/define-state/badges/gpa.svg)](https://codeclimate.com/github/dfcreative/define-state) ![Deps](https://david-dm.org/dfcreative/define-state.svg)
 
+**DEPRECATION NOTICE**
+
+Just use [st8](https://ghub.io/st8) directly as:
+
+```
+import State from 'st8'
+
+var state = new State({
+	a(){
+		// onenter
+		this === target //true
+	},
+	
+	b(){
+		// onenter
+		this === target //true
+		return () => {
+			// onexit
+		}
+	}
+	
+}, target);
+
+Object.defineProperty(target, property, {
+	set: function (value) {
+		return state.set(value);
+	},
+	get: function () {
+		return state.get();
+	}
+});
+```
+
+---
+
 Define stateful property on class instance or any object. Behaves like `defineProperty`, but defines a state.
 
 `$ npm install define-state`
