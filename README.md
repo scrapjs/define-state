@@ -4,7 +4,7 @@
 
 Just use [st8](https://ghub.io/st8) directly as:
 
-```
+```js
 import State from 'st8'
 
 var state = new State({
