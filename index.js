@@ -4,7 +4,8 @@
 module.exports = defineState;
 
 var State = require('st8');
-
+	State.ENTER = 'before'
+	State.EXIT = 'after'
 
 /**
  * Define stateful property on a target

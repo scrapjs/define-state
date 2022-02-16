@@ -21,7 +21,7 @@
     "object"
   ],
   "dependencies": {
-    "st8": "latest"
+    "st8": "^2.1.0"
   },
   "devDependencies": {
     "mocha": "latest"
